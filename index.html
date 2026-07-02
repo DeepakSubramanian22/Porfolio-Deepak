@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Sai Deepak S - Game Developer</title>
+<meta name="description" content="Sai Deepak S - Unity &amp; C# game developer. Monkey Shooter, SuperWomen 2D, Ball Bash and more." />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div class="scanlines" aria-hidden="true"></div>
+
+<header class="navbar" id="top">
+  <div class="wrap navbar__inner">
+    <a href="#top" class="logo">
+      <span class="logo__mark">SD</span>
+      <span class="logo__text">Sai Deepak<span class="logo__dot">.</span>dev</span>
+    </a>
+
+    <nav class="navlinks" id="navlinks">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="navbar__actions">
+      <a class="btn btn--ghost" href="assets/DeepakSubramanian_Resume.pdf" target="_blank" rel="noopener">Resume</a>
+      <button class="navtoggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<section class="hero" id="about">
+  <div class="wrap hero__inner">
+    <div class="hero__text" data-reveal>
+      <p class="eyebrow">PLAYER ONE &nbsp;/&nbsp; READY</p>
+      <h1 class="hero__title">Sai Deepak S</h1>
+      <p class="hero__role">Game Developer - Unity &amp; C#, C++ &amp; SFML</p>
+      <p class="hero__bio">
+        I build the systems under the fun: wave logic, drag‑and‑drop placement,
+        object pools, state machines. Three shipped prototypes so far,
+        a tower-defense, a platformer and a physics arena, each one a small
+        architecture case study as much as a game.
+      </p>
+
+      <div class="hero__cta">
+        <a href="#projects" class="btn btn--primary">▶ View Projects</a>
+        <a href="assets/DeepakSubramanian_Resume.pdf" target="_blank" rel="noopener" class="btn btn--outline">Download Resume</a>
+      </div>
+
+      <dl class="hero__stats">
+        <div><dt>3</dt><dd>Shipped prototypes</dd></div>
+        <div><dt>2</dt><dd>Languages: C#, C++</dd></div>
+        <div><dt>7+</dt><dd>Design patterns applied</dd></div>
+      </dl>
+    </div>
+
+    <div class="hero__console" data-reveal>
+      <div class="console">
+        <div class="console__bezel">
+          <div class="console__dot"></div>
+          <div class="console__dot"></div>
+          <div class="console__dot"></div>
+        </div>
+        <div class="console__screen console__screen--avatar">
+          <picture>
+            <img src="assets/avathar.png" alt="Sai Deepak, illustrated avatar holding a laptop" class="avatar-portrait" />
+          </picture>
+        </div>
+        <div class="console__terminal">
+          <p class="console__line">&gt; <span id="typewriter"></span><span class="cursor">_</span></p>
+        </div>
+        <div class="console__label">CARTRIDGE&nbsp;// PORTFOLIO.EXE</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="techstrip" aria-label="Core tech stack">
+  <div class="wrap techstrip__inner">
+    <p class="techstrip__label">⚡ Core Stack</p>
+    <ul class="pillrow">
+      <li class="pill"><span class="pill__count">A</span>Unity</li>
+      <li class="pill"><span class="pill__count">C#</span>C# (Advanced)</li>
+      <li class="pill"><span class="pill__count">C++</span>C++ (Advanced)</li>
+      <li class="pill"><span class="pill__count">Git</span>Version Control</li>
+      <li class="pill"><span class="pill__count">DSA</span>Data Structures</li>
+    </ul>
+    <a href="#skills" class="btn btn--small">See all skills →</a>
+  </div>
+</section>
+
+<main class="wrap layout">
+
+  <aside class="sidebar">
+
+    <div class="card card--about">
+      <p class="card__kicker">✦ About Me</p>
+      <div class="about__top">
+        <div class="avatar">SD</div>
+        <div>
+          <p class="about__name">Sai Deepak S</p>
+          <p class="about__role">Game Developer</p>
+        </div>
+      </div>
+      <p class="about__bio">
+        Full-stack game developer currently building C++/SFML arcade clones
+        and Unity/C# gameplay systems at Outscal. I like taking apart genre
+        staples, tower defense, platformer, physics arena, and rebuilding
+        them with clean, modular architecture underneath.
+      </p>
+      <ul class="about__links">
+        <li><a href="mailto:deeedev22@gmail.com">✉ deeedev22@gmail.com</a></li>
+        <li><a href="tel:+917975011898">☎ +91 79750 11898</a></li>
+        <li><a href="https://www.linkedin.com/in/deepak-subramanian-85417341a/" target="_blank" rel="noopener">🔗 LinkedIn</a></li>
+        <li><a href="https://github.com/DeepakSubramanian22" target="_blank" rel="noopener">🐙 GitHub</a></li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <p class="card__kicker">✦ Tag Cloud</p>
+      <ul class="tagcloud">
+        <li>Service Locator</li>
+        <li>Dependency Injection</li>
+        <li>Singleton</li>
+        <li>Observer</li>
+        <li>Object Pooling</li>
+        <li>Command</li>
+        <li>State Machine</li>
+        <li>MVC</li>
+      </ul>
+    </div>
+
+    <div class="card" id="experience">
+      <p class="card__kicker">✦ Experience</p>
+      <ol class="timeline">
+        <li>
+          <span class="timeline__date">Jan 2026 – Present</span>
+          <p class="timeline__role">Full Stack Game Developer, Outscal</p>
+          <p class="timeline__desc">C++/SFML clones (Space Invaders, Duck Hunt) and Unity/C# games (2D platformer, Snake2D, Endless runner).</p>
+        </li>
+        <li>
+          <span class="timeline__date">Jul 2021 – Sep 2024</span>
+          <p class="timeline__role">Bsc. Game Design &amp; Development</p>
+          <p class="timeline__desc">IIFA Lancaster Degree College</p>
+        </li>
+        <li>
+          <span class="timeline__date">Jun 2019 – May 2021</span>
+          <p class="timeline__role">Pre‑University, ASC Independent PU College</p>
+        </li>
+        <li>
+          <span class="timeline__date">Mar 2019</span>
+          <p class="timeline__role">High School, Atreya Vidyaniketan</p>
+        </li>
+      </ol>
+    </div>
+
+  </aside>
+
+  <section class="projects" id="projects">
+    <div class="projects__head">
+      <p class="card__kicker">✦ Recent Builds</p>
+      <h2>Projects</h2>
+      <p class="projects__sub">Click a cartridge to load the gameplay reel.</p>
+    </div>
+
+    <div class="cartlist" id="cartlist">
+    </div>
+  </section>
+
+</main>
+
+<section class="skills" id="skills">
+  <div class="wrap">
+    <p class="card__kicker">✦ Full Skill Set</p>
+    <h2>Skills &amp; Tools</h2>
+
+    <div class="skillsgrid">
+      <div class="skillblock">
+        <h3>Languages</h3>
+        <ul><li>C++ (Advanced)</li><li>C# (Advanced)</li></ul>
+      </div>
+      <div class="skillblock">
+        <h3>Engine</h3>
+        <ul><li>Unity (Advanced)</li></ul>
+      </div>
+      <div class="skillblock">
+        <h3>Version Control</h3>
+        <ul><li>Git</li></ul>
+      </div>
+      <div class="skillblock">
+        <h3>Design Patterns</h3>
+        <ul><li>MVC</li><li>Service Locator</li><li>Dependency Injection</li><li>Singleton</li><li>Observer</li><li>Object Pooling</li><li>Command</li><li>State Machine</li></ul>
+      </div>
+      <div class="skillblock">
+        <h3>Foundations</h3>
+        <ul><li>Data Structures &amp; Algorithms</li></ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="education">
+  <div class="wrap">
+    <p class="card__kicker">✦ Education</p>
+    <h2>Education</h2>
+    <ul class="edulist">
+      <li><span>Full Stack Game Development</span><small>Outscal</small></li>
+      <li><span>Bsc. Game Design &amp; Development</span><small>IIFA Lancaster Degree College</small></li>
+      <li><span>Pre‑University</span><small>ASC Independent PU College</small></li>
+      <li><span>High School</span><small>Atreya Vidyaniketan</small></li>
+    </ul>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <div class="wrap contact__inner">
+    <div>
+      <p class="card__kicker">✦ Next Level</p>
+      <h2>Let's build something.</h2>
+      <p>Open to game developer roles &amp; collaborations. Reach out any time.</p>
+    </div>
+    <div class="contact__actions">
+      <a class="btn btn--primary" href="mailto:deeedev22@gmail.com">✉ deeedev22@gmail.com</a>
+      <a class="btn btn--outline" href="tel:+917975011898">☎ +91 79750 11898</a>
+      <a class="btn btn--outline" href="assets/DeepakSubramanian_Resume.pdf" target="_blank" rel="noopener">Download Resume</a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="wrap footer__inner">
+    <span>© <span id="year"></span> Sai Deepak S</span>
+    <a href="#top">Back to top ↑</a>
+  </div>
+</footer>
+
+<div class="modal" id="modal" aria-hidden="true">
+  <div class="modal__backdrop" data-close></div>
+  <div class="modal__panel console console--modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="console__bezel">
+      <div class="console__dot"></div>
+      <div class="console__dot"></div>
+      <div class="console__dot"></div>
+      <button class="modal__close" data-close aria-label="Close">✕</button>
+    </div>
+    <div class="console__screen console__screen--video">
+      <video id="modalVideo" controls playsinline preload="none">
+        Your browser does not support the video tag.
+      </video>
+      <div class="console__nofile" id="noFileMsg" hidden>
+        <p>NO SIGNAL</p>
+        <p class="console__nofile-sub">Drop <code id="missingFile">video.mp4</code> into <code>assets/videos/</code> to load this reel.</p>
+      </div>
+    </div>
+    <div class="console__label" id="modalTitle">NOW PLAYING</div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
