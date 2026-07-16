@@ -54,6 +54,25 @@ const PROJECTS = [
     ],
     github: "https://github.com/DeepakSubramanian22/Ball-Bash",
   },
+  {
+    id: "soccer-arena",
+    tag: "Arcade Prototype",
+    title: "Soccer Arena",
+    meta: "Unity 6 · C# · Physics",
+    thumb: "assets/projects_img/project4/soccer_arena_thumbnail_v2.png",
+    video: "assets/projects_img/project4/20260716-0501-43.3468973.mp4",
+    excerpt:
+      "A physics-driven arcade prototype where you control a football directly, not a character kicking one. Momentum and mass do the work: sprint, dash, and slam three enemy footballs into their goal before they push you into yours.",
+    techs: [
+      "Physics-Based Movement",
+      "Coroutine Power-Ups",
+      "Multi-Enemy AI",
+      "Wave Match State",
+      "Knockback Combat",
+    ],
+    github: "https://github.com/DeepakSubramanian22/Soccer-Arena",
+    browser: "https://deeedev22.itch.io/soccer-arena-game",
+  },
 ];
 
 const cartlist = document.getElementById("cartlist");
@@ -76,6 +95,7 @@ function renderCarts() {
         </ul>
         <div class="cart__actions">
           <button class="btn btn--cart" data-open="${p.id}">▶ Watch Gameplay</button>
+          ${p.browser ? `<a class="btn btn--outline" href="${p.browser}" target="_blank" rel="noopener">Play on Browser</a>` : ""}
           <a class="btn btn--outline" href="${p.github}" target="_blank" rel="noopener">View Code</a>
         </div>
       </div>
