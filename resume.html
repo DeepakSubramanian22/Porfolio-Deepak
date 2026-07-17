@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sai Deepak S | Resume</title>
+  <meta name="description" content="Resume page for Sai Deepak S, Game Developer." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .resume-body {
+      background:
+        radial-gradient(600px 400px at 85% -5%, rgba(240,193,90,0.10), transparent 60%),
+        radial-gradient(600px 500px at -5% 20%, rgba(63,224,197,0.09), transparent 60%),
+        #0d0e17;
+    }
+    .resume-shell {
+      max-width: 1100px;
+      margin: 32px auto;
+      padding: 0 24px 48px;
+    }
+    .resume-sheet {
+      background: rgba(21, 23, 41, 0.92);
+      border: 1px solid rgba(255,255,255,0.09);
+      border-radius: 24px;
+      padding: 28px;
+      box-shadow: 0 24px 60px rgba(0,0,0,0.38);
+    }
+    .resume-header {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 18px;
+      align-items: center;
+      padding-bottom: 20px;
+      border-bottom: 1px solid rgba(255,255,255,0.08);
+      margin-bottom: 20px;
+    }
+    .resume-title {
+      font-size: clamp(2rem, 4vw, 3rem);
+      line-height: 1.1;
+    }
+    .resume-role {
+      margin-top: 8px;
+      color: var(--amber);
+      font-family: var(--font-mono);
+    }
+    .resume-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      justify-content: flex-end;
+    }
+    .resume-grid {
+      display: grid;
+      grid-template-columns: 320px 1fr;
+      gap: 24px;
+    }
+    .resume-section {
+      background: rgba(28, 31, 56, 0.82);
+      border: 1px solid rgba(255,255,255,0.06);
+      border-radius: 18px;
+      padding: 18px;
+      margin-bottom: 18px;
+    }
+    .resume-section h2,
+    .resume-section h3 {
+      margin-bottom: 12px;
+    }
+    .resume-section p,
+    .resume-section li,
+    .resume-section span,
+    .resume-section small {
+      color: var(--text-muted);
+    }
+    .resume-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    .resume-list li {
+      margin-bottom: 10px;
+    }
+    .resume-tagcloud {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .resume-tagcloud li {
+      padding: 8px 10px;
+      border-radius: 999px;
+      background: rgba(255,255,255,0.04);
+      border: 1px solid rgba(255,255,255,0.08);
+      font-size: 0.82rem;
+    }
+    .resume-meta {
+      font-family: var(--font-mono);
+      color: var(--teal);
+      font-size: 0.82rem;
+      margin-bottom: 8px;
+    }
+    @media (max-width: 860px) {
+      .resume-header,
+      .resume-grid {
+        grid-template-columns: 1fr;
+      }
+      .resume-links {
+        justify-content: flex-start;
+      }
+    }
+  </style>
+</head>
+<body class="resume-body">
+  <div class="resume-shell">
+    <div class="resume-sheet">
+      <header class="resume-header">
+        <div>
+          <h1 class="resume-title">Sai Deepak S</h1>
+          <p class="resume-role">Game Developer · Unity &amp; C# · C++ &amp; SFML</p>
+        </div>
+        <div class="resume-links">
+          <a class="btn btn--outline" href="index.html">Back to Portfolio</a>
+          <a class="btn btn--primary" href="index.html#projects">View Projects</a>
+        </div>
+      </header>
+
+      <div class="resume-grid">
+        <aside>
+          <section class="resume-section">
+            <h2>Contact</h2>
+            <ul class="resume-list">
+              <li><a href="mailto:deeedev22@gmail.com">deeedev22@gmail.com</a></li>
+              <li><a href="tel:+917975011898">+91 79750 11898</a></li>
+              <li><a href="https://www.linkedin.com/in/deepak-subramanian-85417341a/" target="_blank" rel="noopener">LinkedIn</a></li>
+              <li><a href="https://github.com/DeepakSubramanian22" target="_blank" rel="noopener">GitHub</a></li>
+            </ul>
+          </section>
+
+          <section class="resume-section">
+            <h2>Summary</h2>
+            <p>
+              Game developer focused on gameplay systems, architecture, and fast iteration.
+              I build Unity/C# and C++/SFML prototypes with clean modular structure, reusable patterns,
+              and polished arcade-style play loops.
+            </p>
+          </section>
+
+          <section class="resume-section">
+            <h2>Core Skills</h2>
+            <ul class="resume-list">
+              <li>Unity 6</li>
+              <li>C# Advanced</li>
+              <li>C++ Advanced</li>
+              <li>SFML</li>
+              <li>Git &amp; GitHub</li>
+              <li>Data Structures &amp; Algorithms</li>
+            </ul>
+          </section>
+
+          <section class="resume-section">
+            <h2>Design Patterns</h2>
+            <ul class="resume-tagcloud">
+              <li>Service Locator</li>
+              <li>Dependency Injection</li>
+              <li>Singleton</li>
+              <li>Observer</li>
+              <li>Object Pooling</li>
+              <li>Command</li>
+              <li>State Machine</li>
+              <li>MVC</li>
+            </ul>
+          </section>
+        </aside>
+
+        <main>
+          <section class="resume-section">
+            <h2>Experience</h2>
+            <p class="resume-meta">Jan 2026 – Present</p>
+            <h3>Full Stack Game Developer · Outscal</h3>
+            <p>
+              Building C++/SFML arcade prototypes and Unity/C# gameplay systems, including wave logic,
+              physics-based gameplay, drag-and-drop placement, AI behaviors, and reusable architecture.
+            </p>
+          </section>
+
+          <section class="resume-section">
+            <h2>Featured Projects</h2>
+            <div>
+              <p class="resume-meta">Monkey Shooter · Unity 6 · C#</p>
+              <p>2D tower-defense with service locator architecture, object pooling, tilemaps, and escalating balloon waves.</p>
+            </div>
+            <div style="margin-top: 14px;">
+              <p class="resume-meta">SuperWomen 2D · Unity 6 · C#</p>
+              <p>Side-scrolling platformer featuring combat, movement, collectibles, and patrol AI across handcrafted levels.</p>
+            </div>
+            <div style="margin-top: 14px;">
+              <p class="resume-meta">Ball Bash · Unity 6 · C#</p>
+              <p>3D arena survival prototype using Rigidbody physics, wave systems, power-ups, and dynamic camera control.</p>
+            </div>
+            <div style="margin-top: 14px;">
+              <p class="resume-meta">Soccer Arena · Unity 6 · C#</p>
+              <p>Physics-driven arcade prototype with momentum, knockback combat, and wave-style enemy pressure.</p>
+            </div>
+          </section>
+
+          <section class="resume-section">
+            <h2>Education</h2>
+            <ul class="resume-list">
+              <li><strong>Full Stack Game Development</strong> · Outscal</li>
+              <li><strong>Bsc. Game Design &amp; Development</strong> · IIFA Lancaster Degree College</li>
+              <li><strong>Pre-University</strong> · ASC Independent PU College</li>
+              <li><strong>High School</strong> · Atreya Vidyaniketan</li>
+            </ul>
+          </section>
+        </main>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
